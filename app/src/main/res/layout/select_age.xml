@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/age"
+        android:hint="Please Select Your Real Age"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"
+        android:editable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:textColor="#ae21fa"
+        android:id="@+id/warning"
+        android:textSize="20dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:id="@+id/start"
+        android:textSize="22sp"
+
+        android:background="#1483e4" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="22sp"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:id="@+id/back"
+        android:background="#1483e4" />
+
+
+
+</LinearLayout>
